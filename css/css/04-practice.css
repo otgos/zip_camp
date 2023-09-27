@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    background-color: chocolate;
+    color: bisque;
+}
+p.first{
+    text-align: left;
+    font-size: 1rem;
+}
+
+p.second{
+    text-align: center;
+    font-size: 2rem;
+}
+
+p.third{
+    text-align: right;
+    font-size: 20px;
+}
+
+
+span.red-span{
+    color: red;
+}

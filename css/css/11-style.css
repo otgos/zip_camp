@@ -1,0 +1,16 @@
+
+body{
+    height: 100vh;
+    background-image: url("../img/nick-fewings-XXBgxhS_-vc-unsplash.jpg");
+    background-repeat: repeat-x;
+    background-position: top ;
+    background-size: 100px 100px;
+}
+
+.container{
+    height: 35vh;
+    background-image: url("../img/neom-3DPaL6XDcZE-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+}

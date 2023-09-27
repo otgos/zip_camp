@@ -1,0 +1,25 @@
+*{
+    text-align: center;
+}
+
+h1{
+    background-color: rgb(113, 113, 75);
+    color: cyan;
+    font-family: Lato;
+    font-weight: 900;
+
+}
+
+p{
+    text-align: justify;
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+span.price{
+    text-decoration: line-through;
+}
+span.italic-text{
+    font-style: italic;
+    font-weight: 600 ;
+}

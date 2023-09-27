@@ -1,0 +1,160 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  body{
+    font-family: 'Montserrat', sans-serif ;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(47, 207, 47);
+    border-radius: 60px;
+    padding: 10px 30px
+
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover{
+    color: rgb(219, 98, 98);;
+  }
+  .header .title span,
+  .header .title{
+    display:flex;
+    align-items: center;
+    gap:10px;
+  }
+
+
+  .content h1{
+    display:flex;
+    gap: 0.5rem;
+  }
+  .content h1 span{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(219, 98, 98);
+    border-radius: 25px;
+  }
+
+  .header .menu a{
+    font-weight: 600;
+    color: black;
+  }
+  .header .menu a:hover{
+    
+    color: rgb(219, 98, 98);
+  }
+
+  .my-photo img{
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    border: 15px solid rgba(47, 207, 47, 0.74);
+  }
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+  }
+
+  .content .about {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+
+  
+  .content .description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+  }
+  .content .toolbar{
+    display: flex;
+    gap: 20px;
+  }
+
+  .content .toolbar a{
+    background-color: rgb(121, 214, 121);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    box-shadow: 3px 3px  9px rgb(170, 54, 54);
+  }
+
+  .footer{
+    display:flex;
+    justify-content: space-around;
+    border-top: 1px dotted gray;
+  }
+
+  .section .card{
+    display:flex;
+    align-items: center;
+    border: 1px solid rgb(121, 214, 121);
+    border-radius: 1.5rem ;
+    padding: 50px;
+    box-shadow: 3px 3px 7px  rgb(170, 54, 54);
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  .left h2{
+    color:  rgb(121, 214, 121);
+  }
+  .section{
+    width: 70%;
+    margin-bottom: 30px;
+  }
+
+  input, textarea{
+    border: 1px solid rgb(121, 214, 121) ;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+
+  }
+
+  .form-row{
+    margin-bottom: 20px;
+  }
+
+  button{
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: rgb(121, 214, 121);
+    border: 1px solid rgb(175, 170, 170);
+    font-size: 1.3rem;
+    color: rgb(55, 52, 52);
+  }
+
+  button:hover{
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: rgb(170, 54, 54);
+    border: 1px solid rgb(175, 170, 170);
+    font-size: 1.3rem;
+    color: rgb(232, 225, 225);
+  }
+
+  form{
+    width: 100%;
+    
+  }

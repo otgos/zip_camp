@@ -1,0 +1,26 @@
+.languages li{
+    list-style-type:lower-alpha ;
+}
+
+li:hover{
+    color: #961400;
+    background-color: aqua;
+}
+
+.countries li{
+    list-style-type: 'icon';
+}
+
+a:link{
+    color:rgb(1, 241, 1);
+}
+
+a:visited{
+    color:#961400;
+}
+
+a:hover{
+    color:#009600;
+    background-color: yellow;
+
+}

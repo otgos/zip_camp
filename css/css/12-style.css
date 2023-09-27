@@ -1,0 +1,31 @@
+
+.container{
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: stretch;
+
+}
+
+.container div{ 
+  
+   
+}
+
+.box1{
+    background-color: red;
+}
+
+.box2{
+    background-color: green;
+}
+
+.box3{
+    background-color: blue;
+}
+
+.box4{
+    background-color: yellow;
+}
